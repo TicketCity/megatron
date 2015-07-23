@@ -1,0 +1,34 @@
+{
+  "name": "megatron",
+  "version": "0.0.1",
+  "description": "Transforms origin obj to new object and validates types.",
+  "main": "megatron.js",
+  "scripts": {
+    "test": "mocha",
+    "unit": "mocha test/unitSpec",
+    "int": "mocha test/integrationSpec",
+    "e2e": "npm run unit && npm run int"
+  },
+  "keywords": [
+    "map",
+    "transform",
+    "validation",
+    "validate"
+  ],
+  "author": {
+    "name": "Chris Moses",
+    "email": "cmoses@ticketcity.com",
+    "url": "https://github.com/ctmoses"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "async": "^1.4.0",
+    "glob": "^5.0.10",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
+  }
+}

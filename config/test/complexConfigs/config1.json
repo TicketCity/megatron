@@ -1,0 +1,29 @@
+{
+	"customer" : {
+		"mapType"	: "Object",
+		"originName": "names",
+		"subStructs": ["name", "address"]
+	},
+	"name"	: {
+		"mapType"	: "Object",
+		"originName": "names",
+		"subStructs": ["firstName", "lastName"]
+	},
+	"address"	: {
+		"mapType"	: "Array",
+		"originName": "addr",
+		"subStructs": ["city"]
+	},
+	"firstName" : {
+		"mapType"	: "String",
+		"originName": "first"
+	},
+	"lastName"	: {
+		"mapType"	: "String",
+		"originName": "last"
+	},
+	"city"		: {
+		"mapType"	: "String",
+		"originName": "city"
+	}
+}

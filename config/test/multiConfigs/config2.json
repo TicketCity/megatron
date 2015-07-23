@@ -1,0 +1,8 @@
+{
+	"emailAddr" : {
+		"type"		: "[object String]", 
+		"iterable"	: false,
+		"mapType"	: "string",
+		"mapName"	: "email"
+	}
+}

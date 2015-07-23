@@ -1,0 +1,14 @@
+{	"customer" : {
+		"mapType"	: "Object",
+		"originName": "names",
+		"subStructs": ["firstName", "lastName"]
+	},
+	"firstName" : {
+		"mapType"	: "String",
+		"originName": "first"
+	},
+	"lastName" : {
+		"mapType"	: "String",
+		"originName": "last"
+	}
+}
