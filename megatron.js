@@ -1,8 +1,8 @@
 'use strict';
 var appRoot		= require('app-root-path');
 var async		= require('async');
-var mapper		= require(appRoot + '/lib/mapper');
-var seeker		= require(appRoot + '/lib/seeker');
+var mapper		= require('./lib/mapper');
+var seeker		= require('./lib/seeker');
 
 module.exports = function(inputObj, configPath, callback) {
 	async.waterfall([

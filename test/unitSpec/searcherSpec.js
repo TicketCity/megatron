@@ -17,7 +17,7 @@ describe('#Searcher Unit Tests', function() {
 		var inputObj = undefined;
 		searcher({}, "last", function(err, res) {
 			should.exist(err);
-			err.toString().should.equal("Error: No data was passed into the searcher to search!");
+			err.toString().should.equal("Error: No data was passed into the searcher to search against!");
 			done();
 		});
 	});
